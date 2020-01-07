@@ -1,0 +1,90 @@
+body
+{
+  font-family: arial, sans-serif;
+  background: #fff;
+  color:rgba(0,0,0,.54);
+  font-size: normal;
+}
+.nav
+{
+  display: flex;
+  justify-content: flex-end;
+}
+nav a
+{
+  margin: 10px;
+}
+#section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section img
+{
+  margin-top: 120px;
+}
+.recherche
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+#bouton
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.clique
+{
+  background-color: rgb(181, 188, 196);
+  margin: 50px;
+  margin-top: 30px;
+  padding: 10px;
+  border-style: ridge;
+  transition: box-shadow .3s;
+}
+.clique a:hover
+{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+#footer
+{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: stretch;
+  order: initial;
+  position: absolute;
+  bottom: 0px; left: 0px; right:0px;
+  background-color: rgb(216,218,220);
+  box-sizing: border-box;
+  width: 100%;
+}
+#france
+{
+  display: flex;
+  flex-direction: row;
+  color: black;
+  opacity: 1;
+  border: 1px solid lightgrey;
+}
+#bas
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  color: black;
+  opacity: 1;
+  border: 1px solid lightgrey;
+}
+a
+{
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+}
